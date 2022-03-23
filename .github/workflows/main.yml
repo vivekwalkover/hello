@@ -26,7 +26,7 @@ jobs:
           username: centos
           server: 13.126.95.193
           port: 22 # default is 22
-          ssh_private_key: ${{ secrets.SSH_PRIVATE_KEY_CC }}
+          ssh_private_key: ${{ secrets.SSH_PRIVATE_KEY_CC_AWS }}
 
           
           # will put all file under this path

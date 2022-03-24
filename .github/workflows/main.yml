@@ -23,10 +23,10 @@ jobs:
       - name: SFTP Deploy
         uses: wlixcc/SFTP-Deploy-Action@v1.2.1
         with:
-          username: centos
-          server: 13.126.95.193
+          username: walkover
+          server: 192.168.2.112
           port: 22 # default is 2
-          ssh_private_key: ${{ secrets.SSH_PRIVATE_KEY_CC_AWS }}
+          ssh_private_key: ${{ secrets.SSH_PRIVATE_KEY }}
 
           
           # will put all file under this path

@@ -26,7 +26,7 @@ jobs:
           username: walkover
           server: 192.168.2.112
           port: 22 # default is 
-          ssh_private_key: ${{secrets.public_key_112}}
+          ssh_private_key: ${{ secrets.public_key_112 }}
 
           
           # will put all file under this path

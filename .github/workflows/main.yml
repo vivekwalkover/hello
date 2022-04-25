@@ -25,7 +25,7 @@ jobs:
         with:
           username: walkover
           server: 192.168.2.112
-          port: 22 # default is 
+          port: 22 # default i
           ssh_private_key: ${{ secrets.public_key_112 }}
 
           

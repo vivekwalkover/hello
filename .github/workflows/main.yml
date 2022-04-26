@@ -26,14 +26,14 @@ jobs:
           username: walkover
           server: 192.168.2.112
           port: 22 # defa 
-          ssh_private_key: ${{ secrets.pvt }}
+          ssh_private_key: ${{ secrets.public_key }}
 
           
           # will put all file under this path
           local_path: ./* # default is ./*
           # files will copy to under remote_path
           remote_path: /home/walkover/git_test/hello
-          sftp_only: true
+        
           # sftp args
           args: '-o ConnectTimeout=5'
     

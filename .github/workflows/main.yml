@@ -25,7 +25,7 @@ jobs:
         with:
           username: walkover
           server: 192.168.2.112
-          port: 22 # defaul 
+          port: 22 # defau 
           ssh_private_key: ${{ secrets.SSH_PRIVATE_KEY }}
 
           

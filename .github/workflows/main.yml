@@ -33,7 +33,7 @@ jobs:
           local_path: ./* # default is ./*
           # files will copy to under remote_path
           remote_path: /home/walkover/git_test/hello
-          
+          sftp_only: true
           # sftp args
           args: '-o ConnectTimeout=5'
     

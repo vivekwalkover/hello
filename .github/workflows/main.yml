@@ -24,7 +24,7 @@ jobs:
         uses: wlixcc/SFTP-Deploy-Action@v1.2.1
         with:
           username: walkover
-          server: 192.168.2.112
+          server: 192.168.2.111
           port: 22 # defa 
           ssh_private_key: ${{ secrets.PUBLIC_KEY_112 }}
 
